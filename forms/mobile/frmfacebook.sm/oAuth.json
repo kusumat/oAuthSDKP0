@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "44dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "se35c19b3c37417e8a7eee559e3696b6",
+    "_text_": "OAuth",
+    "_top_": {
+        "type": "string",
+        "value": "77dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s7023b0d67094d3b89e1156be75219db",
+    "id": "oAuth",
+    "ide_onClick": "AS_Button_dbc8b521660b41db9416d7765b5f71e4",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "d4facae14f7340ad819c9e1ec7e685c5",
+    "name": "kony.ui.Button",
+    "parent": "frmfacebook",
+    "pf": "frmfacebook",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

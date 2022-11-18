@@ -1,0 +1,23 @@
+{
+    "AS_Button_a3cbe22d4c7b414bba22e37e138e639f": {
+        "id": "AS_Button_a3cbe22d4c7b414bba22e37e138e639f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmfacebook",
+            "type": "forms",
+            "platform": null,
+            "KUID": "e225f914fc4045d39a71a12054321b7e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_bdff97ac20db454a8f9524e0707883e5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": " var konyIdent = kony.sdk.getCurrentInstance().getIdentityService(\"facebook\");\n      var options ={};\n  \n      konyIdent.logout(function(response){\n       alert(\"logout success\"+JSON.stringify(response));\n        kony.print(\"logout success\"+JSON.stringify(response));\n      },function(error){\n       alert(\"logout failed\"+JSON.stringify(error));\n        kony.print(\" logout failed\"+JSON.stringify(error));\n      });",
+            "callbackType": null
+        }]
+    }
+}

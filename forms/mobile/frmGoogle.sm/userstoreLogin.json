@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "se35c19b3c37417e8a7eee559e3696b6",
+    "_text_": "User Store Login",
+    "_top_": {
+        "type": "string",
+        "value": "233dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s7023b0d67094d3b89e1156be75219db",
+    "id": "userstoreLogin",
+    "ide_onClick": "AS_Button_d66110157e0745da9eb38e31679101ed",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "b37b12072dc24a4fa3801016973ba1a8",
+    "name": "kony.ui.Button",
+    "parent": "frmGoogle",
+    "pf": "frmGoogle",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

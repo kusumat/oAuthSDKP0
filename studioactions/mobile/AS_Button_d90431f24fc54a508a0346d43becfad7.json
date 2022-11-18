@@ -1,0 +1,27 @@
+{
+    "AS_Button_d90431f24fc54a508a0346d43becfad7": {
+        "id": "AS_Button_d90431f24fc54a508a0346d43becfad7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmfacebook",
+            "type": "forms",
+            "platform": null,
+            "KUID": "e225f914fc4045d39a71a12054321b7e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_e25091418fe24a05826e95f8c573f4f0",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "logout2",
+            "display": "logout2",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

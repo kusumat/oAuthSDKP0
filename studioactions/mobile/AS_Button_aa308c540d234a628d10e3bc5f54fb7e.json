@@ -1,0 +1,28 @@
+{
+    "AS_Button_aa308c540d234a628d10e3bc5f54fb7e": {
+        "id": "AS_Button_aa308c540d234a628d10e3bc5f54fb7e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLinkedIn",
+            "type": "forms",
+            "platform": "",
+            "KUID": "cb7d12c640454732ba1b9d405a141238"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__e98f73ece22d47549d5db0654a920f0f",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "logout",
+            "display": "logout",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

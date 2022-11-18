@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_f35b26e46906487ca47558272013fe59": {
+        "id": "AS_FlexContainer_f35b26e46906487ca47558272013fe59",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmGoogle",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j58ad71be55c4454b1ca8e7925f804f1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ba0bb3be65df4cb5b50340b0996311ef",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "\ntry {\n  var options = {};\n  var authorizationClient = null;\nalert(\"inside onclick\");\n  var sdkClient = kony.sdk.getCurrentInstance();\n  if (Object.keys(sdkClient).length !== 0) {\n    authorizationClient = sdkClient.getIdentityService(\"google\");\n  }\n\n  this.view.forceLayout();\n  options.browserWidget = this.view.brwD;\noptions.UseDeviceBrowser = true;\n  //#ifdef android    \noptions.success_url = \"Deep link url registered for android\";\n//#else    \noptions.success_url = \"Deep link url registered for rest\";\n//#endif\n  authorizationClient.login(options, function (res) { \n    alert(\"login passed\"); \n    //Form1.show();\n  }, function (err) { \n    alert(\"login failed due to\" + JSON.stringify(err)); \n  });\n\n  //  this.successWrapper.bind(this), this.failureWrapper.bind(this));\n} catch (exception) {\n  alert(JSON.stringify(exception));\n}",
+            "parentId": null
+        }]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "AS_Button_a7bf153ff4354f8aa7b36afda096dd52": {
+        "id": "AS_Button_a7bf153ff4354f8aa7b36afda096dd52",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmGoogle",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j58ad71be55c4454b1ca8e7925f804f1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_d493c43be6734c508bd7a413243f0bd5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "try {\n\n  var konyIdent = kony.sdk.getCurrentInstance().getIdentityService(\"googleOld\");\n  var options ={};\n  konyIdent.login({},function(response){\n    alert(\"login success\"+JSON.stringify(response));\n    kony.print(\"login success\"+JSON.stringify(response));\n  },function(error){\n    alert(\"login2 failed\"+JSON.stringify(error));\n    kony.print(\" login2 failed\"+JSON.stringify(error));\n  });\n  \n} catch (exception) {\n  alert(JSON.stringify(exception));\n}",
+            "parentId": null
+        }]
+    }
+}

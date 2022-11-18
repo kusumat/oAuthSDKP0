@@ -1,0 +1,16 @@
+{
+    "AS_Button_hfb95a0135604f88b94e78fd21b2f7f1": {
+        "id": "AS_Button_hfb95a0135604f88b94e78fd21b2f7f1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_c9a5f731c65343a2bdc878aa0f60f4bc",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "try {\n\n  var konyIdent = kony.sdk.getCurrentInstance().getIdentityService(\"LinkedInLogin\");\n  var options ={};\n  options.browserWidget = this.view.brwD;\n  konyIdent.login(options,function(response){\n    alert(\"linkedin login success\"+JSON.stringify(response));\n    kony.print(\"linkedin login success\"+JSON.stringify(response));\n  },function(error){\n    alert(\"linkedin login2 failed\"+JSON.stringify(error));\n    kony.print(\"linkedin login2 failed\"+JSON.stringify(error));\n  });\n  \n} catch (exception) {\n  alert(\"catch linkedin : \"+JSON.stringify(exception));\n}"
+        }]
+    }
+}

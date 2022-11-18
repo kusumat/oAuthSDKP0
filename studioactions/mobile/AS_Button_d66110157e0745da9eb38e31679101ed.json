@@ -1,0 +1,23 @@
+{
+    "AS_Button_d66110157e0745da9eb38e31679101ed": {
+        "id": "AS_Button_d66110157e0745da9eb38e31679101ed",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmGoogle",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j58ad71be55c4454b1ca8e7925f804f1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_e7c470f527b04b109765fede3b2ace00",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "\t var konyIdent = kony.sdk.getCurrentInstance().getIdentityService(\"userStoreD\");\n      var options ={};\n  options[\"userid\"] = \"deepthi@kony.com\";\n  options[\"password\"] = \"Kony@123\";\n      konyIdent.login(options,function(response){\n       alert(\"login success\"+JSON.stringify(response));\n        kony.print(\"login success\"+JSON.stringify(response));\n      },function(error){\n       alert(\"login1 failed\"+JSON.stringify(error));\n        kony.print(\" login1 failed\"+JSON.stringify(error));\n      });",
+            "parentId": null
+        }]
+    }
+}

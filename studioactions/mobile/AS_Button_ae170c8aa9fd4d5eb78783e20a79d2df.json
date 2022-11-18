@@ -1,0 +1,23 @@
+{
+    "AS_Button_ae170c8aa9fd4d5eb78783e20a79d2df": {
+        "id": "AS_Button_ae170c8aa9fd4d5eb78783e20a79d2df",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmGoogle",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j58ad71be55c4454b1ca8e7925f804f1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_b48a7c99dc1a46f6b5d966560a160fea",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "try {\n  var options = {};\n  var authorizationClient = null;\n  alert(\"inside onclick\");\n  var sdkClient = kony.sdk.getCurrentInstance();\n  if (Object.keys(sdkClient).length !== 0) {\n    authorizationClient = sdkClient.getIdentityService(\"google\");\n  }\n\n  //this.view.forceLayout();\n  //options.browserWidget = this.view.brwD;\n  options[\"UseDeviceBrowser\"] = true;\t\t\t\t\t\t  \t//To open the device browser instead kony browser widget\n\n  //#ifdef android    \n  options[\"success_url\"] = \"https://johnvinodh.github.io/applinktest/\";\t//Deeplink URL of the application\n  //#else    \n  options[\"success_url\"] = \"http://com.hcl.browserLic\";\t//Deeplink URL of the application\n  //#endif\n  authorizationClient.login(options, function (response) { \n    alert(\"login success\"+JSON.stringify(response));\n    kony.print(\"login success\"+JSON.stringify(response));\n  }, function (error) { \n    alert(\"login1 failed\"+JSON.stringify(error));\n    kony.print(\" login1 failed\"+JSON.stringify(error));\n  });\n\n  //  this.successWrapper.bind(this), this.failureWrapper.bind(this));\n} catch (exception) {\n  alert(JSON.stringify(exception));\n}\n",
+            "parentId": null
+        }]
+    }
+}
