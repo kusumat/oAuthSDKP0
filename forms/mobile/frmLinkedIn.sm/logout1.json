@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "se35c19b3c37417e8a7eee559e3696b6",
+    "_text_": "LogOut1",
+    "_top_": {
+        "type": "string",
+        "value": "153dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s7023b0d67094d3b89e1156be75219db",
+    "id": "logout1",
+    "ide_onClick": "AS_Button_aa308c540d234a628d10e3bc5f54fb7e",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "j86a28a067b544f09620eb1fa6a3cbba",
+    "name": "kony.ui.Button",
+    "parent": "frmLinkedIn",
+    "pf": "frmLinkedIn",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

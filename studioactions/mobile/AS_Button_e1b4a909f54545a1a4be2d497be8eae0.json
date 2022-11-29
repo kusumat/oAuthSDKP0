@@ -1,0 +1,29 @@
+{
+    "AS_Button_e1b4a909f54545a1a4be2d497be8eae0": {
+        "id": "AS_Button_e1b4a909f54545a1a4be2d497be8eae0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmGoogle",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j58ad71be55c4454b1ca8e7925f804f1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__g5d43faaa7d74bf5b1889f6499ec2cef",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmHome",
+            "formKUID": "a4e45bee4ddd4634a82668433550f2b7",
+            "projectName": "oAuthSDKP0",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

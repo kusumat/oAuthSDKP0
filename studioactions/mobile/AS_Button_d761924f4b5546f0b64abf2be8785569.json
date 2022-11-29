@@ -1,0 +1,23 @@
+{
+    "AS_Button_d761924f4b5546f0b64abf2be8785569": {
+        "id": "AS_Button_d761924f4b5546f0b64abf2be8785569",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmGoogle",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j58ad71be55c4454b1ca8e7925f804f1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_c6966d9eaf014ff488228fad177d80be",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var konyIdent = kony.sdk.getCurrentInstance().getIdentityService(\"google\");\nvar options ={};\n\nkonyIdent.logout(function(response){\n  alert(\"google logout success\"+JSON.stringify(response));\n  kony.print(\"logout success\"+JSON.stringify(response));\n},function(error){\n  alert(\"google logout failed\"+JSON.stringify(error));\n  kony.print(\"google logout failed\"+JSON.stringify(error));\n});",
+            "parentId": null
+        }]
+    }
+}

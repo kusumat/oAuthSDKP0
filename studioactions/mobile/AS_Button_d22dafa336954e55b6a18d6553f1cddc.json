@@ -1,0 +1,29 @@
+{
+    "AS_Button_d22dafa336954e55b6a18d6553f1cddc": {
+        "id": "AS_Button_d22dafa336954e55b6a18d6553f1cddc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLinkedIn",
+            "type": "forms",
+            "platform": null,
+            "KUID": "cb7d12c640454732ba1b9d405a141238"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__gfb466d4e10d47d59e7e7242919207a6",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmGoogle",
+            "formKUID": "j58ad71be55c4454b1ca8e7925f804f1",
+            "projectName": "oAuthSDKP0",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

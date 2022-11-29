@@ -1,0 +1,17 @@
+{
+    "AS_AppEvents_ff66e9f092d24862bcbef055107dfa7c": {
+        "id": "AS_AppEvents_ff66e9f092d24862bcbef055107dfa7c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_cb82e4c0b9c346c19e0cba7a585cfcc3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "return testDeepLink(eventobject);",
+            "parentId": null
+        }]
+    }
+}

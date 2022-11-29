@@ -1,0 +1,29 @@
+{
+    "AS_Button_g2f548b635b44edaa66c1ac1d3f3666a": {
+        "id": "AS_Button_g2f548b635b44edaa66c1ac1d3f3666a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Form1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j120af4e79044b29b72daff945885025"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__c9535d5e861d4cde9bb804c3d4c4bb7c",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "Form2",
+            "formKUID": "f445966e016349ee9b8864e687a69df6",
+            "projectName": "oAuthSDKP0",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

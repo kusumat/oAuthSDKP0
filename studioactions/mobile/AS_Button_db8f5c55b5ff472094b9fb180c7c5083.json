@@ -1,0 +1,23 @@
+{
+    "AS_Button_db8f5c55b5ff472094b9fb180c7c5083": {
+        "id": "AS_Button_db8f5c55b5ff472094b9fb180c7c5083",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLinkedIn",
+            "type": "forms",
+            "platform": "",
+            "KUID": "cb7d12c640454732ba1b9d405a141238"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_c95d0f1b18fa4baca972b8892f1c9537",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": " var konyIdent = kony.sdk.getCurrentInstance().getIdentityService(\"facebook\");\n      var options ={};\n  options.browserWidget = this.view.brwD;\n      konyIdent.logout(function(response){\n       alert(\"logout success\"+JSON.stringify(response));\n        kony.print(\"logout success\"+JSON.stringify(response));\n      },function(error){\n       alert(\"logout failed\"+JSON.stringify(error));\n        kony.print(\" logout failed\"+JSON.stringify(error));\n      },options);",
+            "parentId": null
+        }]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "AS_Button_cb54265e14b14af6a25a8e56f2fe335c": {
+        "id": "AS_Button_cb54265e14b14af6a25a8e56f2fe335c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a4e45bee4ddd4634a82668433550f2b7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__id807740d4094d15907f6582319193f7",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmfacebook",
+            "formKUID": "e225f914fc4045d39a71a12054321b7e",
+            "projectName": "oAuthSDKP0",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

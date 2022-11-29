@@ -1,0 +1,28 @@
+{
+    "AS_Button_ja5b030c56e64a298605ecd42f44356a": {
+        "id": "AS_Button_ja5b030c56e64a298605ecd42f44356a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Form2",
+            "type": "forms",
+            "platform": null,
+            "KUID": "f445966e016349ee9b8864e687a69df6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__j235e6232de546fcb409485fd0ebaff9",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "googleOauth",
+            "display": "googleOauth",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "AS_Button_dbc8b521660b41db9416d7765b5f71e4": {
+        "id": "AS_Button_dbc8b521660b41db9416d7765b5f71e4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmfacebook",
+            "type": "forms",
+            "platform": null,
+            "KUID": "e225f914fc4045d39a71a12054321b7e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_c7c96c912edd45b79dd70a86fed5d67b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "try {\n\n  var konyIdent = kony.sdk.getCurrentInstance().getIdentityService(\"facebook\");\n  var options ={};\n  options.browserWidget = this.view.brwD;\n  konyIdent.login(options,function(response){\n    alert(\"facebook login success\"+JSON.stringify(response));\n    kony.print(\"facebook login success\"+JSON.stringify(response));\n  },function(error){\n    alert(\"facebook login2 failed\"+JSON.stringify(error));\n    kony.print(\"facebook login2 failed\"+JSON.stringify(error));\n  });\n  \n} catch (exception) {\n  alert(\"catch facebook : \"+JSON.stringify(exception));\n}"
+        }]
+    }
+}

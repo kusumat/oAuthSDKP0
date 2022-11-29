@@ -1,0 +1,207 @@
+{
+    "models": {
+        "mobile": {
+            "class": "GraphLinksModel",
+            "linkDataArray": [
+                {
+                    "actionId": "NAVIGATE_TO_FORM__g5d43faaa7d74bf5b1889f6499ec2cef",
+                    "actionSequenceId": "AS_Button_e1b4a909f54545a1a4be2d497be8eae0",
+                    "beautifiedPath": "frmGoogle > btnBack > onClick",
+                    "evt": "ide_onClick",
+                    "from": "j58ad71be55c4454b1ca8e7925f804f1",
+                    "isPSP": false,
+                    "points": [
+                        168,
+                        229.11193033854164,
+                        178,
+                        229.11193033854164,
+                        178,
+                        253.64086543007255,
+                        170,
+                        253.64086543007255,
+                        170,
+                        307.405263671875,
+                        188,
+                        307.405263671875
+                    ],
+                    "to": "a4e45bee4ddd4634a82668433550f2b7",
+                    "widgetKUID": "e6acfa4934544b179f9bd6f1b155e63b"
+                },
+                {
+                    "actionId": "NAVIGATE_TO_FORM__ief0ee4769984f9599686f2e7e25d95e",
+                    "actionSequenceId": "AS_Button_ac204baf6b884b87840b186b87e2a851",
+                    "beautifiedPath": "frmHome > btnLinkedIn > onClick",
+                    "evt": "ide_onClick",
+                    "from": "a4e45bee4ddd4634a82668433550f2b7",
+                    "isPSP": false,
+                    "points": [
+                        188,
+                        368.68526367187496,
+                        170,
+                        368.68526367187496,
+                        170,
+                        368.68526367187496,
+                        170,
+                        396,
+                        61.33333333333333,
+                        396,
+                        61.33333333333333,
+                        606.845263671875,
+                        61.33333333333333,
+                        624.845263671875
+                    ],
+                    "to": "cb7d12c640454732ba1b9d405a141238",
+                    "widgetKUID": "c774d23e09b94c94be13b38d754105db"
+                },
+                {
+                    "actionId": "NAVIGATE_TO_FORM__c4236f4ff64441c9ab65c2b4da546937",
+                    "actionSequenceId": "AS_Button_acecf673389548b3ba3f3171de42f46a",
+                    "beautifiedPath": "frmHome > btnGoogle > onClick",
+                    "evt": "ide_onClick",
+                    "from": "a4e45bee4ddd4634a82668433550f2b7",
+                    "isPSP": false,
+                    "points": [
+                        188,
+                        246.12526367187496,
+                        178,
+                        246.12526367187496,
+                        178,
+                        171.93419876340585,
+                        186,
+                        171.93419876340585,
+                        186,
+                        126.97859700520833,
+                        168,
+                        126.97859700520833
+                    ],
+                    "to": "j58ad71be55c4454b1ca8e7925f804f1",
+                    "widgetKUID": "d1647283e24448e4b75f27f66c5b8a7a"
+                },
+                {
+                    "actionId": "NAVIGATE_TO_FORM__id807740d4094d15907f6582319193f7",
+                    "actionSequenceId": "AS_Button_cb54265e14b14af6a25a8e56f2fe335c",
+                    "beautifiedPath": "frmHome > btnFacebook > onClick",
+                    "evt": "ide_onClick",
+                    "from": "a4e45bee4ddd4634a82668433550f2b7",
+                    "isPSP": false,
+                    "points": [
+                        241.33333333333334,
+                        491.24526367187497,
+                        241.33333333333334,
+                        501.24526367187497,
+                        241.33333333333334,
+                        500,
+                        241.33333333333334,
+                        500,
+                        241.33333333333334,
+                        996,
+                        61.33333333333333,
+                        996,
+                        61.33333333333333,
+                        1206.845263671875,
+                        61.33333333333333,
+                        1224.845263671875
+                    ],
+                    "to": "e225f914fc4045d39a71a12054321b7e",
+                    "widgetKUID": "d2ba5b889a694d1ab478e8e360adaad6"
+                },
+                {
+                    "actionId": "NAVIGATE_TO_FORM__ide_onClick_c3842a78aed541229b45672f8650671e",
+                    "actionSequenceId": "AS_Button_e31253922122496fa3cbafb9dd5260dc",
+                    "beautifiedPath": "frmLinkedIn > btnBack > onClick",
+                    "evt": "ide_onClick",
+                    "from": "cb7d12c640454732ba1b9d405a141238",
+                    "isPSP": false,
+                    "points": [
+                        114.66666666666666,
+                        624.845263671875,
+                        114.66666666666666,
+                        614.845263671875,
+                        114.66666666666666,
+                        612,
+                        114.66666666666666,
+                        612,
+                        114.66666666666666,
+                        604,
+                        188,
+                        604,
+                        188,
+                        588,
+                        172,
+                        588,
+                        172,
+                        429.96526367187494,
+                        178,
+                        429.96526367187494,
+                        188,
+                        429.96526367187494
+                    ],
+                    "to": "a4e45bee4ddd4634a82668433550f2b7",
+                    "widgetKUID": "f94a3ff9ce3d4263bf57a62fc708ab8b"
+                },
+                {
+                    "actionId": "NAVIGATE_TO_FORM__ide_onClick_gbec5925ba0641ad9e2ec8f8dad28709",
+                    "actionSequenceId": "AS_Button_d9fe0d9ab96d4095bcb70317cb9076f0",
+                    "beautifiedPath": "frmfacebook > btnBack > onClick",
+                    "evt": "ide_onClick",
+                    "from": "e225f914fc4045d39a71a12054321b7e",
+                    "isPSP": false,
+                    "points": [
+                        114.66666666666666,
+                        1224.845263671875,
+                        114.66666666666666,
+                        1214.845263671875,
+                        114.66666666666666,
+                        1212,
+                        114.66666666666666,
+                        1212,
+                        114.66666666666666,
+                        1204,
+                        294.6666666666667,
+                        1204,
+                        294.6666666666667,
+                        509.24526367187497,
+                        294.6666666666667,
+                        491.24526367187497
+                    ],
+                    "to": "a4e45bee4ddd4634a82668433550f2b7",
+                    "widgetKUID": "d0c9f419924b4c93b6f707cc1a3204bd"
+                }
+            ],
+            "nodeDataArray": [
+                {
+                    "formKUID": "j58ad71be55c4454b1ca8e7925f804f1",
+                    "formName": "frmGoogle",
+                    "isStartupForm": false,
+                    "key": "j58ad71be55c4454b1ca8e7925f804f1",
+                    "loc": "8 24.845263671875003",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "a4e45bee4ddd4634a82668433550f2b7",
+                    "formName": "frmHome",
+                    "isStartupForm": true,
+                    "key": "a4e45bee4ddd4634a82668433550f2b7",
+                    "loc": "188 184.845263671875",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "cb7d12c640454732ba1b9d405a141238",
+                    "formName": "frmLinkedIn",
+                    "isStartupForm": false,
+                    "key": "cb7d12c640454732ba1b9d405a141238",
+                    "loc": "8 624.845263671875",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "e225f914fc4045d39a71a12054321b7e",
+                    "formName": "frmfacebook",
+                    "isStartupForm": false,
+                    "key": "e225f914fc4045d39a71a12054321b7e",
+                    "loc": "8 1224.845263671875",
+                    "thumbnailURL": null
+                }
+            ]
+        }
+    }
+}
