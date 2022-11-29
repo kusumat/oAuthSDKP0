@@ -261,8 +261,8 @@
     "cancelicon": "",
     "category": "app",
     "chat": "false",
-    "cloud_account_guid": "28000b30-61cc-46ce-8b0a-c30ff988cef3",
-    "cloud_env_GUID": "c48e9add-6bcf-41de-a2f1-28d10c5fa602",
+    "cloud_account_guid": "f86b69c7-4e40-4ca5-a30b-73bc7b266d64",
+    "cloud_env_GUID": "ddec3937-759c-42ea-a69c-c13fb0e8516b",
     "codeGeneration": "false",
     "contacts": "false",
     "cordovaModified": false,
@@ -271,7 +271,7 @@
     },
     "createdVizVersion": "9.2.37",
     "createdgaversion": "9.2.37",
-    "currentgaversion": "9.5.9",
+    "currentgaversion": "9.5.25",
     "deeplinkkey": "None",
     "defaultZIndex": "1",
     "defaultlocalekey": "",
@@ -430,9 +430,15 @@
             "baseId": "27303002-9ded-4fd6-9b1f-4829957135c2",
             "id": "27303002-9ded-4fd6-9b1f-4829957135c2",
             "version": "1.0"
+        },
+        "f86b69c7-4e40-4ca5-a30b-73bc7b266d64": {
+            "appName": "oAuthSDKP0",
+            "baseId": "913b55e1-4744-487b-8a84-d15fa935832a",
+            "id": "913b55e1-4744-487b-8a84-d15fa935832a",
+            "version": "1.0"
         }
     },
-    "konyVizVersion": "9.5.9",
+    "konyVizVersion": "9.5.25",
     "lastmodifiedtime": "1637126644661",
     "location": "false",
     "mangoapptitlekey": ",,,,,,",
